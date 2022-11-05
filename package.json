@@ -1,0 +1,19 @@
+{
+  "name": "type-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tem":"node ./src/createTem.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.29.3",
+    "@type-challenges/utils": "^0.1.1",
+    "eslint": "^8.26.0"
+  }
+}
